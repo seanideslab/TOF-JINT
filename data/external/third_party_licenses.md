@@ -1,4 +1,4 @@
-﻿# Third-party Dataset Licenses
+# Third-party Dataset Licenses
 
 This repository does not redistribute third-party datasets.
 

@@ -1,0 +1,4 @@
+sample_id,material,depth_rmse_m,confidence_ece,volume_mape_percent
+reflective_sample_001,reflective,0.198,0.042,5.6
+absorptive_sample_001,black absorptive,0.214,0.047,6.1
+sparse_cloud_sample_001,sparse depth,0.231,0.052,6.8

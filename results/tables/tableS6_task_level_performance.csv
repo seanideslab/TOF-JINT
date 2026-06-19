@@ -1,0 +1,6 @@
+system_configuration,targets,trigger_success_percent,mean_volume_mape_percent,latency_2d_ms,runtime_3d_ms,peak_temperature_c,task_failure_percent
+Baseline: TOF-only + single geometric integrator,160,N/A,28.5,85.4,880.5,84.2,22.5
+Semantic trigger + DEN4 + semantic-guided geometric routing,160,92.5,4.65,76.8,160.0,74.1,0.0
+Semantic trigger + uncertainty-aware RGB-TOF fusion,160,94.0,3.25,78.5,175.2,75.3,0.0
+Semantic trigger + thermally aware stabilization scheduling (Lyapunov),160,91.5,4.8,76.5,195.5,68.4,0.0
+Full system (semantic + ECE confidence + Lyapunov),160,93.5,3.18,78.2,208.4,69.1,0.0

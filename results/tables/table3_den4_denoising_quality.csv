@@ -1,0 +1,5 @@
+denoising_method,mse_x1e3,hausdorff,snr,avg_latency_ms,remark
+Raw observed point cloud,27.42,5.23,55.4,,Severe sunlight-induced noise
+SOR / ROR (PCL),12.85,3.12,82.6,185.0,Statistical filtering with boundary oversmoothing
+PointCleanNet (learned baseline),6.36,1.85,110.2,840.5,Improved quality but high latency
+One-step score-based (DEN4),0.94,0.85,149.1,48.6,Adopted; balanced geometry and edge latency

@@ -1,0 +1,3 @@
+routing_setting,paco_usage,affected_topology,porous_vegetation_mape_percent,interpretation
+All targets through PaCo,PaCo applied to all semantic classes,Porous vegetation,48.2,Planar proxies distort porous topology and inflate the reconstructed volume.
+Conditional PaCo + semantic-guided routing,PaCo only for regular solids; loose aggregates and porous vegetation bypass PaCo,Porous vegetation,1.92,Occupancy-aware voxel-grid integration preserves internal voids and avoids unnecessary PaCo latency.

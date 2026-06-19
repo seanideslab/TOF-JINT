@@ -1,4 +1,3 @@
-[covariance_initialization.md](https://github.com/user-attachments/files/29117966/covariance_initialization.md)
 # Covariance Initialization
 
 `Sigma_xi` is initialized from static calibration sequences collected at representative hover thrust levels. Translation, rotation, extrinsic residual, and TOF depth residual variances define the baseline perturbation covariance blocks.

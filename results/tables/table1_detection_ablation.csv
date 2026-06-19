@@ -1,0 +1,5 @@
+architecture_setting,map_0_5_percent,map_0_5_0_95_percent,precision_percent,recall_percent,parameters_m,flops_g
+Baseline YOLOv11n,26.5,14.7,38.1,29.4,2.58,6.3
++ P2 detection head (-P5),30.1,16.5,40.6,32.1,3.1,10.9
++ dynamic multi-scale fusion,35.2,20.1,45.9,36.5,3.45,12.8
++ shape-aware regression (Shape-IoU),40.9,24.6,49.8,39.8,3.87,14.7

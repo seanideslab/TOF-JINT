@@ -1,0 +1,2 @@
+target_id,samples,topology,preferred_integrator
+regular_solid,45,smooth boundary; no internal voids,alpha_shape

@@ -1,0 +1,7 @@
+id,purpose,comparison_setting,data_scene,main_metrics,corresponding_result,status
+E1,Verify the gain from RGB-TOF confidence maps,TOF-only; RGB-guided; RGB-guided + confidence,"Reflective, absorptive, and sparse-depth samples","Depth RMSE, ECE, point-cloud MSE, volume MAPE",Fig. S3; Table S1,Included
+E2,Quantify whether confidence maps match true error,Uncertainty map vs. depth-error heatmap,Manual or high-precision scan reference,ECE; error-confidence relation,Fig. S3,Included
+E3,Validate thermally aware stabilization scheduling,Sync; Async; Async+semantic; Async+thermal,30-min continuous task or HIL stress test,"Peak temperature, queue length, task drops, power",Main Fig. 5; Main Table 5; Table S6,Edge-platform measurement
+E4,Add task-level end-to-end success and semantic routing analysis,Unrestored; geometric restoration; all-target PaCo; semantic-guided routing,"Regular solids, loose aggregates, porous vegetation","Trigger success, completion rate, overall MAPE",Main Fig. 6; Table S2; Table S6,Included
+E5,Evaluate key parameter sensitivity,"tau_c, voxel size, alpha, confidence weight lambda, scheduler weight V",Representative topology classes,"MAPE, latency, trigger rate, failure rate",Fig. S4; Table S5,Included
+E6,Verify robustness under extreme material and illumination,"Noon sunlight, cloudy condition, reflective surface, black absorptive surface",Shalun site or equivalent outdoor tests,"Depth missing rate, restoration rate, volume error",Fig. S5; Fig. S3,Included

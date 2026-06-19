@@ -1,0 +1,5 @@
+configuration,depth_rmse_m,confidence_ece,pointcloud_mse_x1e3,volume_mape_percent,remark
+TOF-only baseline,0.452,,18.5,15.24,No RGB prior; severe degradation under sunlight and extreme materials.
+RGB-guided completion without confidence weighting,0.285,0.125,9.42,9.85,Feature fusion only; high-confidence errors on reflective surfaces remain.
+RGB-guided + confidence weighting,0.198,0.042,4.85,5.6,Adopted setting; high-uncertainty regions are suppressed before restoration.
+RGB-guided + confidence weighting + semantic trigger,0.198,0.042,4.85,3.15,End-to-end result with topology-aware integrator switching.

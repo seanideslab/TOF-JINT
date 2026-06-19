@@ -1,4 +1,4 @@
-﻿# VisDrone-DET2019 Download Instructions
+# VisDrone-DET2019 Download Instructions
 
 VisDrone-DET2019 should be downloaded from the official VisDrone project page:
 

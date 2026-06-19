@@ -1,0 +1,4 @@
+target_type,samples,topology,alpha_shape_only_mape_percent,voxel_grid_only_mape_percent,semantic_switching_mape_percent,semantic_switching_sd,avg_runtime_ms
+Regular solid,45,Smooth boundary; no internal voids,2.15,11.4,2.15,0.8,850
+Loose aggregate,60,Irregular collapsed boundary; rough surface,18.3,4.85,4.85,1.2,120
+Porous vegetation,55,Many internal air voids,52.4,1.92,1.92,0.5,15

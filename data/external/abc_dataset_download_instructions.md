@@ -1,4 +1,3 @@
-[abc_dataset_download_instructions.md](https://github.com/user-attachments/files/29117997/abc_dataset_download_instructions.md)
 # ABC Dataset Download Instructions
 
 The ABC CAD dataset should be downloaded from the official ABC dataset distribution site:

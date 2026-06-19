@@ -1,0 +1,5 @@
+completion_method,chamfer_distance_x100,hausdorff_distance_x100,normal_consistency,avg_latency_ms
+PCN baseline,16.36,22.06,0.55,95.4
+PoinTr,7.26,9.45,0.825,158.2
+ODGNet,2.75,5.82,0.912,215.5
+Parametric completion (adopted),1.87,4.09,0.943,118.6

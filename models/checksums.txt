@@ -1,0 +1,1 @@
+# Add SHA256 checksums for external model weights before release.

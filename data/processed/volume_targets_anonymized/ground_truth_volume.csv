@@ -1,0 +1,4 @@
+target_id,reference_volume_m3,source
+regular_solid,1.0,anonymized reference scan
+loose_aggregate,0.85,anonymized reference scan
+porous_vegetation,0.42,anonymized reference scan

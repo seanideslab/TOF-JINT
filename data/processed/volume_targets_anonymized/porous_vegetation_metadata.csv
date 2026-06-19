@@ -1,0 +1,2 @@
+target_id,samples,topology,preferred_integrator
+porous_vegetation,55,many internal air voids,occupancy_voxel_grid

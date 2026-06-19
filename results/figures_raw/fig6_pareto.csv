@@ -1,0 +1,5 @@
+configuration,mean_volume_mape_percent,latency_2d_ms,peak_power_w,task_failure_percent
+Baseline,28.5,85.4,12.8,22.5
+Semantic + DEN4 + routing,4.65,76.8,7.5,0.0
+RGB-TOF fusion,3.25,78.5,7.8,0.0
+Full system,3.18,78.2,6.8,0.0

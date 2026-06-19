@@ -1,0 +1,5 @@
+scheduling_architecture,avg_2d_latency_ms,bounded_3d_runtime_ms,peak_ram_gb,peak_cpu_temp_c,peak_power_w,task_failure_rate_percent
+Synchronous blocking (Sync),>1200,,4.2,86.5,12.8,45.0
+Asynchronous without semantic gating,85.0,N/A (unbounded),3.5,82.3,10.5,15.0
+Asynchronous + semantic trigger,76.8,160.0,1.8,74.1,7.5,0.0
+Asynchronous + semantic trigger + thermally aware stabilization (Lyapunov-inspired),76.5,195.5,1.9,68.4,6.8,0.0

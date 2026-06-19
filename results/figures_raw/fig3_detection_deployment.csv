@@ -1,0 +1,4 @@
+deployment_mode,map_0_5_percent,map_0_5_0_95_percent,avg_latency_ms,p95_latency_ms,p99_latency_ms,avg_fps,peak_ram_mb,avg_system_power_w
+FP32 (PyTorch baseline),40.9,24.6,175.4,195.2,240.5,5.7,1240,11.5
+FP16 (framework mixed precision),40.5,24.3,142.1,160.4,185.0,7.0,680,9.8
+"INT8 (QDQ, adopted)",39.4,23.3,76.8,85.2,92.1,13.0,185,6.2
