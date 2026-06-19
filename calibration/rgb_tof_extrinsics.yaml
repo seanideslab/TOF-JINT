@@ -1,0 +1,10 @@
+R_ext:
+- [1.000, 0.000, 0.000]
+- [0.000, 1.000, 0.000]
+- [0.000, 0.000, 1.000]
+T_ext:
+- 0.012
+- -0.004
+- 0.035
+unit: meters
+description: TOF-to-RGB rigid transformation
