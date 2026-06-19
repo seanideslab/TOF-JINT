@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: Semantic-Guided RGB-TOF Volume Estimation and Thermally Aware Scheduling for Edge UAVs
+version: 1.0.0
+date-released: 2026-06-18
+url: https://github.com/seanideslab/TOF-JINT
+license: MIT
+authors:
+  - family-names: Tsai
+    given-names: Shang-En
+message: If you use this repository, please cite the associated JINT manuscript.
